@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changelog-1.yaml
+  - include:
+      file: db/changelog/20250317125721_add_phone_number_to_students.yaml

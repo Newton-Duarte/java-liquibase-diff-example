@@ -1,0 +1,36 @@
+databaseChangeLog:
+- changeSet:
+    id: 1742216247832-4
+    author: Newton Duarte (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: phone_number
+            type: VARCHAR(255)
+        tableName: students
+- changeSet:
+    id: 1742216247832-1
+    author: Newton Duarte (generated)
+    changes:
+    - modifyDataType:
+        columnName: email
+        newDataType: varchar(255)
+        tableName: students
+- changeSet:
+    id: 1742216247832-2
+    author: Newton Duarte (generated)
+    changes:
+    - modifyDataType:
+        columnName: first_name
+        newDataType: varchar(255)
+        tableName: students
+- changeSet:
+    id: 1742216247832-3
+    author: Newton Duarte (generated)
+    changes:
+    - modifyDataType:
+        columnName: last_name
+        newDataType: varchar(255)
+        tableName: students
+
